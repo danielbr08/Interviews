@@ -7,8 +7,9 @@
 using namespace std;
 int main()
 {
-	Dou<double> d; 
-	d.setFirst(3);
+	cout<<mult(6, 5);
+	//Dou<double> d; 
+	//d.setFirst(3);
 
 	//subMatrix
 		//int mat3[][2] = {  { 5,6 },{9,10} };

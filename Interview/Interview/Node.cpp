@@ -1,15 +1,15 @@
-#include "Node.h"
-
-Node::Node() {}
-
-Node::Node(int data)
-{
-	this->data = data;
-}
-
-Node::~Node()
-{
-}
-
-
-
+//#include "node.h"
+//
+//node::node() {}
+//
+//node::node(int data)
+//{
+//	this->data = data;
+//}
+//
+//node::~node()
+//{
+//}
+//
+//
+//

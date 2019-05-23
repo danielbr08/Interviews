@@ -1,11 +1,11 @@
-#include <iostream>
-#include "template.h"
-
-template<class T>
- Dou<T>::Dou() { }
-
-template<class T>
-T Dou<T>::getFirst() { return first; }
-
-template<class T>
-T Dou<T>::setFirst(T first) { this->first = first;}
+//#include <iostream>
+//#include "template.h"
+//
+//template<class t>
+// dou<t>::dou() { }
+//
+//template<class t>
+//t dou<t>::getfirst() { return first; }
+//
+//template<class t>
+//t dou<t>::setfirst(t first) { this->first = first;}
