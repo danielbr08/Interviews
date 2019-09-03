@@ -39,6 +39,22 @@ void main()
 	////Derived* bp = new Derived();
 	//bp->print();
 	//delete bp;
+	//int arr[] = { 1,2,3,4 };
+	//cout << summultarr(arr,4)<<endl;
+
+	//int* a = new int();
+	//int* b = new int();
+	//*a = 5;
+	//*b = 3;
+	//int a = 5;
+	//int b = 3;
+
+	//cout << "a:" << a << endl << "b:" << b << endl;
+	//swap(a, b);
+	//cout << "a:" << a << endl << "b:" << b << endl;
+
+	int a[] = { 1,3,5,7,9, 4 };
+	cout << isSum9Exists(a,6);
 
 	system("pause");
 }

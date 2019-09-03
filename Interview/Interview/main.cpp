@@ -1,13 +1,13 @@
-#include <iostream>
-#include "Node.h"
-#include "functions.h"
-#include "template.h"
-#include <string>
-
-using namespace std;
-int main()
-{
-	cout<<mult(6, 5);
+//#include <iostream>
+//#include "Node.h"
+//#include "functions.h"
+//#include "template.h"
+//#include <string>
+//
+//using namespace std;
+//int main()
+//{
+	//cout<<mult(6, 5);
 	//Dou<double> d; 
 	//d.setFirst(3);
 
@@ -41,5 +41,5 @@ int main()
 	//std::cout << l1->getMiddleList() << std::endl;
 	//std::cout << std::endl;
 	////l1->printList();
-	system("pause");
-}
+	//system("pause");
+//}

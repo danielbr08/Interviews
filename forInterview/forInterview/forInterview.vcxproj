@@ -27,7 +27,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -111,10 +111,21 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="countBitsOn.cpp" />
+    <ClCompile Include="destructor.cpp" />
+    <ClCompile Include="isSum9Exists.cpp" />
+    <ClCompile Include="joinSortedArray.cpp" />
     <ClCompile Include="longestSequence.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mult7WithoutMultOrAdd.cpp" />
-    <ClCompile Include="singelton.cpp" />
+    <ClCompile Include="replaceTreecpp.cpp" />
+    <ClCompile Include="reversStr.cpp" />
+    <ClCompile Include="Singleton.cpp" />
+    <ClCompile Include="sortColorsArray.cpp" />
+    <ClCompile Include="sumMultItemsArr.cpp" />
+    <ClCompile Include="swap.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="declarations.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

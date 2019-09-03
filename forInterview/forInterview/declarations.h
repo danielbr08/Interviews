@@ -30,6 +30,12 @@ public:
 	static Singleton* getInstance();
 };
 
+class Node {
+	Node* right;
+	Node* Left;
+	int value;
+};
+
 int countOnes(int);
 int countBitsOnRange(int, int);
 int isSmaller(int, int);
@@ -38,5 +44,7 @@ void findLongestSequence(int[], int);
 int mult7WithotMultOrAdd(int);
 char* replaceStr(char*, int);
 void swap(int&, int&);
+int sumMultArr(int* arr, int size);
+bool isSum9Exists(int [],int);
 
 #endif
