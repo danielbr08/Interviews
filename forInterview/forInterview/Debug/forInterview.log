@@ -1,4 +1,5 @@
-﻿  main.cpp
-c:\git repos\c++\interviews\forinterview\forinterview\main.cpp(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+﻿  findItemISize.cpp
+c:\git repos\c++\interviews\forinterview\forinterview\finditemisize.cpp(5): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\git repos\c++\interviews\forinterview\forinterview\finditemisize.cpp(12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   forInterview.vcxproj -> C:\Git Repos\c++\Interviews\forInterview\Debug\forInterview.exe
   forInterview.vcxproj -> C:\Git Repos\c++\Interviews\forInterview\Debug\forInterview.pdb (Partial PDB)

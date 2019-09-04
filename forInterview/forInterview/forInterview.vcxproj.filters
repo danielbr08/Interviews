@@ -54,6 +54,9 @@
     <ClCompile Include="isSum9Exists.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="findItemISize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="declarations.h">

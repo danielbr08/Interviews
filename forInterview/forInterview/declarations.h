@@ -46,5 +46,6 @@ char* replaceStr(char*, int);
 void swap(int&, int&);
 int sumMultArr(int* arr, int size);
 bool isSum9Exists(int [],int);
+int findItemISize(int[], int, int, int);
 
 #endif

@@ -112,6 +112,7 @@
   <ItemGroup>
     <ClCompile Include="countBitsOn.cpp" />
     <ClCompile Include="destructor.cpp" />
+    <ClCompile Include="findItemISize.cpp" />
     <ClCompile Include="isSum9Exists.cpp" />
     <ClCompile Include="joinSortedArray.cpp" />
     <ClCompile Include="longestSequence.cpp" />

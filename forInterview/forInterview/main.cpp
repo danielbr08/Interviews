@@ -53,9 +53,11 @@ void main()
 	//swap(a, b);
 	//cout << "a:" << a << endl << "b:" << b << endl;
 
-	int a[] = { 1,3,5,7,9, 4 };
-	cout << isSum9Exists(a,6);
+	//int a[] = { 1,3,5,7,9, 4 };
+	//cout << isSum9Exists(a,6);
 
+	int a[] = { 1,3,5,7,9, 4 };
+	cout << findItemISize(a, 0, 5, 3);
 	system("pause");
 }
 
