@@ -121,6 +121,7 @@
     <ClCompile Include="replaceTreecpp.cpp" />
     <ClCompile Include="reversStr.cpp" />
     <ClCompile Include="Singleton.cpp" />
+    <ClCompile Include="sortBallsByColors.cpp" />
     <ClCompile Include="sortColorsArray.cpp" />
     <ClCompile Include="sumMultItemsArr.cpp" />
     <ClCompile Include="swap.cpp" />

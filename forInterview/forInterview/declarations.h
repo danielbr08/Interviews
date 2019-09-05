@@ -36,6 +36,13 @@ class Node {
 	int value;
 };
 
+enum COLORS
+{
+	GREEN,
+	RED,
+	YELLOW
+};
+
 int countOnes(int);
 int countBitsOnRange(int, int);
 int isSmaller(int, int);
@@ -43,9 +50,11 @@ void joinSortedArrays(int*, int*, int, int);
 void findLongestSequence(int[], int);
 int mult7WithotMultOrAdd(int);
 char* replaceStr(char*, int);
-void swap(int&, int&);
+
+void swap(int a, int b);
 int sumMultArr(int* arr, int size);
 bool isSum9Exists(int [],int);
 int findItemISize(int[], int, int, int);
+void sorBallsByColors(int[],int);
 
 #endif

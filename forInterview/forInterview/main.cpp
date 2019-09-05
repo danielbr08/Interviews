@@ -56,8 +56,16 @@ void main()
 	//int a[] = { 1,3,5,7,9, 4 };
 	//cout << isSum9Exists(a,6);
 
-	int a[] = { 1,3,5,7,9, 4 };
-	cout << findItemISize(a, 0, 5, 3);
+	//int a[] = { 1,3,5,7,9, 4 };
+	//cout << findItemISize(a, 0, 5, 3);
+
+	COLORS red = RED;
+	COLORS yellow = YELLOW;
+	COLORS green = GREEN;
+
+	int a[] = { YELLOW,GREEN, YELLOW,yellow,red, GREEN, red, GREEN, red,YELLOW,red,red,GREEN, YELLOW };
+	sorBallsByColors(a,14);
+
 	system("pause");
 }
 

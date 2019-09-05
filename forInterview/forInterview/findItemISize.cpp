@@ -7,28 +7,46 @@
 
 int findItemISize(int arr[], int start, int end, int sizeIndex) {
 	if (start == end) {
-		return arr[0];
+		return arr[start];
 	}
 	srand(time(NULL));
-	int pivot = rand()%6;
-	int* newArr= new int[end-start +1];
+	int range = end - start + 1;
+	int randIndex = rand() % range + start;
+	int pivot = arr[randIndex];
+
 	int smallerPivotCounter = 0;
-	int startBiggerPivotIndex = end+1;
-	for (int i = start; i < end+1; i++) {
-		if (arr[i] < pivot) {
-			newArr[smallerPivotCounter] = arr[i];
+	int lIndex = start;
+	int rIndex = end;
+
+	while (lIndex < rIndex) {
+		if (arr[lIndex] < pivot) {
 			smallerPivotCounter++;
+			lIndex++;
+			continue;
 		}
 		else {
-			startBiggerPivotIndex--;
-			newArr[startBiggerPivotIndex] = arr[i];
+			while ( (arr[rIndex] >= pivot) && lIndex < rIndex) {
+				rIndex--;
+			}
+			if (lIndex < rIndex) {
+				swap(arr[lIndex], arr[rIndex]);
+				rIndex--;
+				smallerPivotCounter++;
+				lIndex++;
+			}
 		}
 	}
 	if (sizeIndex <= smallerPivotCounter) {
-		return findItemISize(newArr, 0, smallerPivotCounter-1, sizeIndex);
+		return findItemISize(arr, start, start + smallerPivotCounter-1, sizeIndex);
 	}
 	else {
-		return findItemISize(newArr, startBiggerPivotIndex, end - start, sizeIndex - smallerPivotCounter);
+		return findItemISize(arr, start + smallerPivotCounter, end, sizeIndex - smallerPivotCounter);
 	}
 }
+
+//void swap(int& a, int& b) {
+//	int temp = a;
+//	a = b;
+//	b = temp;
+//}
 #endif
