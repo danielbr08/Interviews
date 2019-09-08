@@ -60,6 +60,12 @@
     <ClCompile Include="sortBallsByColors.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="countNumOfInstances.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="randArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="declarations.h">

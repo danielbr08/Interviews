@@ -1,11 +1,14 @@
 #pragma once
 
 #include <iostream>
+#include <time.h>  
 #include "declarations.h";
 using namespace std;
 
 void main()
 {
+	srand(time(0));
+
 	//int arr[10] = {1,2,3,5,6,7,8,11,3,4};
 	//findLongestSequence(arr, 10);
 
@@ -59,12 +62,27 @@ void main()
 	//int a[] = { 1,3,5,7,9, 4 };
 	//cout << findItemISize(a, 0, 5, 3);
 
-	COLORS red = RED;
-	COLORS yellow = YELLOW;
-	COLORS green = GREEN;
+	//COLORS red = RED;
+	//COLORS yellow = YELLOW;
+	//COLORS green = GREEN;
 
-	int a[] = { YELLOW,GREEN, YELLOW,yellow,red, GREEN, red, GREEN, red,YELLOW,red,red,GREEN, YELLOW };
-	sorBallsByColors(a,14);
+	//COLORS a[] = { YELLOW, GREEN, YELLOW, yellow, red, GREEN, red, GREEN, red,YELLOW, red, red, GREEN, YELLOW };
+	//sorBallsByColors(a,14);
+
+	//Node* n1 = new Node();
+	//Node* n2 = new Node();
+	//Node* n3 = new Node();
+	//cout << "Instances counter : " << n1->count << endl;
+	//Node* n4 = new Node();
+
+	//delete n1;
+	//delete n2;
+	//delete n3;
+	//delete n4;
+
+
+	int a[] = { 1,3,5,7,9, 4 };
+	randArray(a, 6);
 
 	system("pause");
 }

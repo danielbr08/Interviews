@@ -12,7 +12,7 @@ void sorBallsByColors(COLORS arr [], int size) {
 		while (arr[lIndex] == (COLORS)RED) {
 			lIndex++;
 		}
-		while (arr[lIndex] != (COLORS)RED) {
+		while (arr[rIndex] != (COLORS)RED) {
 			rIndex--;
 		}
 		if (lIndex < rIndex) {
@@ -26,7 +26,7 @@ void sorBallsByColors(COLORS arr [], int size) {
 		while (arr[lIndex] == (COLORS)YELLOW) {
 			lIndex++;
 		}
-		while (arr[lIndex] != (COLORS)GREEN) {
+		while (arr[rIndex] == (COLORS)GREEN) {
 			rIndex--;
 		}
 		if (lIndex < rIndex) {

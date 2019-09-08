@@ -34,6 +34,11 @@ class Node {
 	Node* right;
 	Node* Left;
 	int value;
+public:
+	Node();
+	~Node();
+	static int count;
+
 };
 
 enum COLORS
@@ -51,10 +56,11 @@ void findLongestSequence(int[], int);
 int mult7WithotMultOrAdd(int);
 char* replaceStr(char*, int);
 
-void swap(int a, int b);
+void swap(int* a, int* b);
 int sumMultArr(int* arr, int size);
 bool isSum9Exists(int [],int);
 int findItemISize(int[], int, int, int);
-void sorBallsByColors(int[],int);
+void sorBallsByColors(COLORS[],int);
+void randArray(int[], int);
 
 #endif

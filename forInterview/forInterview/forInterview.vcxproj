@@ -111,6 +111,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="countBitsOn.cpp" />
+    <ClCompile Include="countNumOfInstances.cpp" />
     <ClCompile Include="destructor.cpp" />
     <ClCompile Include="findItemISize.cpp" />
     <ClCompile Include="isSum9Exists.cpp" />
@@ -118,6 +119,7 @@
     <ClCompile Include="longestSequence.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mult7WithoutMultOrAdd.cpp" />
+    <ClCompile Include="randArray.cpp" />
     <ClCompile Include="replaceTreecpp.cpp" />
     <ClCompile Include="reversStr.cpp" />
     <ClCompile Include="Singleton.cpp" />
